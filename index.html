@@ -38,7 +38,8 @@
 </head>
 <body class="antialiased">
 
-    <main class="p-4 md:p-8 max-w-4xl mx-auto">
+    <!-- Changed max-w-4xl to max-w-7xl to make the content wider -->
+    <main class="p-4 md:p-8 max-w-7xl mx-auto">
         <section class="presentation-section">
             <h3 class="text-3xl font-bold section-title mb-4 text-center">Bitcoin Price History</h3>
             <p class="text-center text-gray-600 mb-6">Explore the historical price of Bitcoin. Drag and resize the window on the timeline below to analyze a specific period.</p>
@@ -60,8 +61,8 @@
                 </div>
                 <div id="btcDateRangeDisplay" class="text-center text-gray-600 font-medium mb-4"></div>
 
-                <!-- Main Chart for displaying the selected price range -->
-                <div class="chart-container" style="height: 400px;">
+                <!-- Main Chart for displaying the selected price range. Increased height from 400px to 550px. -->
+                <div class="chart-container" style="height: 550px;">
                     <canvas id="bitcoinChart"></canvas>
                 </div>
                 
